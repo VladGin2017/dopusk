@@ -54,3 +54,14 @@ CTEST(x_test, d_equal)
 	const float expected = -3;
 	ASSERT_DBL_NEAR(expected, result);
 }
+
+CTEST(x_test, d_equal2)
+{
+	const float a = 2;
+	const float c = 32;
+
+	const float result = XX2(a, c);
+
+	const float expected = 4;
+	ASSERT_DBL_NEAR(expected, result);
+}
