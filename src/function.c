@@ -13,3 +13,7 @@ float X(float d, float a, float b, int num)
 {
   return (-b + (num * sqrtf(d))) / (2 * a);
 }
+float XX(float c, float b)
+{
+  return (-c/b);
+}
