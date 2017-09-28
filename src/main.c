@@ -11,7 +11,10 @@ int main(){
 	scanf("%f", &b);
 	printf("%s", "Введите c:\n");
 	scanf("%f", &c);
-
+        
+	if((a == 0) && (b == 0)){
+		printf("Нет корней\n");
+        }
 	d = D(a, b, c);
 	if(a == 0){
 		printf("Уравнение вида bx+c\n");
