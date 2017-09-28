@@ -14,6 +14,7 @@ int main(){
         
 	if((a == 0) && (b == 0)){
 		printf("Нет корней\n");
+		return 0;
         }
 	d = D(a, b, c);
 	if(a == 0){
