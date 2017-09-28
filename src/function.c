@@ -19,5 +19,5 @@ float XX(float c, float b)
 }
 float XX2(float a, float c)
 {
-  return (-c/a)
+  return (sqrt((-c)/a));
 }
