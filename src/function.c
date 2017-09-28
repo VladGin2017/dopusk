@@ -17,3 +17,7 @@ float XX(float c, float b)
 {
   return (-c/b);
 }
+float XX2(float a, float c)
+{
+  return (-c/a)
+}
