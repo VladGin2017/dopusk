@@ -4,6 +4,7 @@
 
 float D(float, float, float);
 float X(float, float, float, int);
+float XX(float c, float b);
 
 #endif
 
